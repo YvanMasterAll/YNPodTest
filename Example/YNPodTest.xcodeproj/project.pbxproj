@@ -41,10 +41,10 @@
 		607FACE51AFB9204008FA782 /* YNPodTest_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YNPodTest_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6307C4EF4B0C037041E190E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		910886721FC834C9E79A1933 /* YNPodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YNPodTest.podspec; path = ../YNPodTest.podspec; sourceTree = "<group>"; };
+		6307C4EF4B0C037041E190E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		910886721FC834C9E79A1933 /* YNPodTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YNPodTest.podspec; path = ../YNPodTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1E4064FDDC1849E6208965D /* Pods-YNPodTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNPodTest_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YNPodTest_Example/Pods-YNPodTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B119A57594AB66656F68F411 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B119A57594AB66656F68F411 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BCD8A8ED9DC369A8F0B2BBDF /* Pods_YNPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YNPodTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28E7DCBC397178D0517CB98 /* Pods_YNPodTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YNPodTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
