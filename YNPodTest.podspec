@@ -5,11 +5,11 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-  s.homepage         = 'https://github.com/1136838669@qq.com/YNPodTest'
+  s.homepage         = 'https://github.com/YvanMasterAll/YNPodTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1136838669@qq.com' => '1136838669@qq.com' }
-  s.source           = { :git => 'https://github.com/1136838669@qq.com/YNPodTest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/YvanMasterAll/YNPodTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '8.0'
   s.source_files = 'YNPodTest/Classes/**/*'
