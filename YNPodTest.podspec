@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YNPodTest'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YNPodTest.'
+  s.summary          = 'YNPodTest, 私有库测试'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
@@ -13,10 +13,12 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '8.0'
   s.source_files = 'YNPodTest/Classes/**/*'
+  s.swift_version = '4.2'
   # s.resource_bundles = {
   #   'YNPodTest' => ['YNPodTest/Assets/*.png']
   # }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  gem "fourflusher", :git => 'https://github.com/CocoaPods/fourflusher', :branch => 'master'
 end
